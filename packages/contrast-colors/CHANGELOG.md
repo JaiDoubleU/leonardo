@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.0.0-alpha.18 (2023-05-15)
+
+
+### Bug Fixes
+
+* BackgroundColor length threshold updated to >= ([54fe5e5](https://github.com/adobe/leonardo/commit/54fe5e56d38eaf61c246090090c644caa3b32a59))
+* corrected midtone color outputs ([#46](https://github.com/adobe/leonardo/issues/46)) ([5c780b7](https://github.com/adobe/leonardo/commit/5c780b7a1f0355f985591076a27f1764e1faee3c))
+* ensured smooth is false by default & verified tests passing and UI not impacted by addition ([9722d5b](https://github.com/adobe/leonardo/commit/9722d5b422e60c62243cfae58f21bafbb286854c))
+* remove Babel, use ESM wrapper approach for Node 13.x ESM support + CJS support ([#72](https://github.com/adobe/leonardo/issues/72)) ([7541dc1](https://github.com/adobe/leonardo/commit/7541dc1189403039b900ef08ca82023d31063b58))
+* typo in theme constructor for saturation ([#140](https://github.com/adobe/leonardo/issues/140)) ([beb6d88](https://github.com/adobe/leonardo/commit/beb6d888706f2f5480c1da3c1cb94f16acb65d61))
+* **contrast-colors:** Add d3 as dependency ([#25](https://github.com/adobe/leonardo/issues/25)) ([34940e0](https://github.com/adobe/leonardo/commit/34940e00f52fa69b413b7c882a79c4d158b19a3b))
+
+
+### Features
+
+* added throw error for testing missing parameters ([#90](https://github.com/adobe/leonardo/issues/90)) ([2f5dff7](https://github.com/adobe/leonardo/commit/2f5dff7ced7756ef860ba9e5e661cf5fc1e20a2e))
+
+
+
+
+
 # [1.0.0-alpha.17](https://github.com/adobe/leonardo/compare/@adobe/leonardo-contrast-colors@1.0.0-alpha.16...@adobe/leonardo-contrast-colors@1.0.0-alpha.17) (2023-01-26)
 
 **Note:** Version bump only for package @adobe/leonardo-contrast-colors
